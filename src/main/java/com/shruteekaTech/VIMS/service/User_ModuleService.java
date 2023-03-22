@@ -2,6 +2,7 @@ package com.shruteekaTech.VIMS.service;
 
 
 import com.shruteekaTech.VIMS.dto.UserDtoModule;
+import com.shruteekaTech.VIMS.utils.UserLogin;
 
 import java.util.List;
 
@@ -21,6 +22,6 @@ public interface User_ModuleService {
 
     void deleteUser(Integer userId);
 
-
+    boolean loginCheck(UserLogin userLogin);
 
 }

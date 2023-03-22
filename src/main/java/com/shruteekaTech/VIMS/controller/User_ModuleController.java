@@ -3,6 +3,7 @@ package com.shruteekaTech.VIMS.controller;
 import com.shruteekaTech.VIMS.dto.UserDtoModule;
 import com.shruteekaTech.VIMS.service.User_ModuleService;
 import com.shruteekaTech.VIMS.utils.ApiResponse;
+import com.shruteekaTech.VIMS.utils.UserLogin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -66,6 +67,16 @@ public class User_ModuleController {
     ResponseEntity<ApiResponse> deleteUser(@PathVariable Integer userId){
         userModuleService.deleteUser(userId);
         return new ResponseEntity<>(new ApiResponse("User Deleted Successfully",true),HttpStatus.OK);
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<ApiResponse> login(@RequestBody UserLogin userLogin){
+        boolean loginCheck = userModuleService.loginCheck(userLogin);
+        if(loginCheck){
+            return new ResponseEntity<>(new ApiResponse("Login successfully",true),HttpStatus.FOUND);
+        }else {
+            return new ResponseEntity<>(new ApiResponse("Login fail..Please check your email or password",false),HttpStatus.NOT_FOUND);
+        }
     }
 
 }

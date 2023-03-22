@@ -5,6 +5,7 @@ import com.shruteekaTech.VIMS.exception.ResourceNotFoundException;
 import com.shruteekaTech.VIMS.model.User_Module;
 import com.shruteekaTech.VIMS.repository.User_ModuleRepo;
 import com.shruteekaTech.VIMS.service.User_ModuleService;
+import com.shruteekaTech.VIMS.utils.UserLogin;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -86,5 +87,18 @@ public class User_ModuleServiceImpl implements User_ModuleService {
     public void deleteUser(Integer userId) {
         User_Module user = userModuleRepo.findById(userId).orElseThrow(()-> new ResourceNotFoundException("User","userId"));
         userModuleRepo.delete(user);
+    }
+
+    @Override
+    public boolean loginCheck(UserLogin userLogin) {
+        String email = userLogin.getEmail();
+        String password = userLogin.getPassword();
+
+        User_Module user = userModuleRepo.findByEmailAndPassword(email, password).orElseThrow(() -> new ResourceNotFoundException("User", "email or password"));
+
+        if(user.getEmail().equals(email) && user.getPassword().equals(password)){
+            return true;
+        }
+        return false;
     }
 }
