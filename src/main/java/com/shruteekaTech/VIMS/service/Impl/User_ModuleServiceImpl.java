@@ -1,6 +1,7 @@
 package com.shruteekaTech.VIMS.service.Impl;
 
 import com.shruteekaTech.VIMS.dto.UserDtoModule;
+import com.shruteekaTech.VIMS.exception.ResourceNotFoundException;
 import com.shruteekaTech.VIMS.model.User_Module;
 import com.shruteekaTech.VIMS.repository.User_ModuleRepo;
 import com.shruteekaTech.VIMS.service.User_ModuleService;
@@ -35,7 +36,7 @@ public class User_ModuleServiceImpl implements User_ModuleService {
 
     @Override
     public boolean updateUser(Integer userId, UserDtoModule userDtoModule) {
-        User_Module user = userModuleRepo.findById(userId).orElseThrow(() -> new RuntimeException("User Not Found With Given UserId"));
+        User_Module user = userModuleRepo.findById(userId).orElseThrow(() -> new ResourceNotFoundException("User","userId"));
 
         user.setName(userDtoModule.getName());
         user.setMobile(userDtoModule.getMobile());
@@ -53,21 +54,21 @@ public class User_ModuleServiceImpl implements User_ModuleService {
 
     @Override
     public UserDtoModule getUserById(Integer userId) {
-        User_Module user = userModuleRepo.findById(userId).orElseThrow(() -> new RuntimeException("User Not Found With Given UserId"));
+        User_Module user = userModuleRepo.findById(userId).orElseThrow(() -> new ResourceNotFoundException("User","userId"));
         UserDtoModule dtoModule = modelMapper.map(user, UserDtoModule.class);
         return dtoModule;
     }
 
     @Override
     public UserDtoModule getUserByEmail(String email) {
-        User_Module user = userModuleRepo.findByEmail(email).orElseThrow(() -> new RuntimeException("User Not Found With Given Email"));
+        User_Module user = userModuleRepo.findByEmail(email).orElseThrow(() -> new ResourceNotFoundException("User","email"));
         UserDtoModule dtoModule = modelMapper.map(user, UserDtoModule.class);
         return dtoModule;
     }
 
     @Override
     public List<UserDtoModule> getUserByName(String name) {
-        List<User_Module> userList = userModuleRepo.findByName(name).orElseThrow(() -> new RuntimeException("User Not FOund With Given UserName"));
+        List<User_Module> userList = userModuleRepo.findByName(name).orElseThrow(() -> new ResourceNotFoundException("User","name"));
         List<UserDtoModule> list = userList.stream().map((users) ->
                              this.modelMapper.map(users, UserDtoModule.class)).collect(Collectors.toList());
         return list;
@@ -83,7 +84,7 @@ public class User_ModuleServiceImpl implements User_ModuleService {
 
     @Override
     public void deleteUser(Integer userId) {
-        User_Module user = userModuleRepo.findById(userId).orElseThrow(() -> new RuntimeException("User Not found with Given UserId"));
+        User_Module user = userModuleRepo.findById(userId).orElseThrow(()-> new ResourceNotFoundException("User","userId"));
         userModuleRepo.delete(user);
     }
 }
