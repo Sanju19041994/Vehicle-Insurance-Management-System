@@ -1,5 +1,6 @@
 package com.shruteekaTech.VIMS.dto;
 
+import com.shruteekaTech.VIMS.model.User_Module;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,5 +25,7 @@ public class VehicleDto {
     private String color;
 
     private LocalDate registrationDate;
+
+    private UserDtoModule userModule;
 
 }

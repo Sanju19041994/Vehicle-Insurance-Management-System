@@ -1,5 +1,6 @@
 package com.shruteekaTech.VIMS.dto;
 
+import com.shruteekaTech.VIMS.model.Vehicle;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,5 +28,5 @@ public class UserDtoModule {
 
     private String licence;
 
-
+    private VehicleDto vehicle;
 }
