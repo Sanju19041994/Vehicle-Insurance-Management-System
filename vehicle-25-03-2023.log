@@ -1,0 +1,231 @@
+2023:03:25 19:19:46.110 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 3900 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 19:19:46.113 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 19:19:46.169 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 19:19:46.169 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 19:19:47.517 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 19:19:47.584 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1412 ms
+2023:03:25 19:19:49.590 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 19:19:49.908 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 19:19:49.947 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 19:19:49.958 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.194 seconds (process running for 4.888)
+2023:03:25 19:59:54.204 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Started : login() started from User_ModuleController
+2023:03:25 19:59:54.204 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Started : loginCheck() started from User_ModuleServiceImpl
+2023:03:25 19:59:54.536 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Completed : loginCheck() completed from User_ModuleServiceImpl
+2023:03:25 19:59:54.536 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Completed : login() completed from User_ModuleController
+2023:03:25 20:46:34.282 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 232 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 20:46:34.285 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 20:46:34.341 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 20:46:34.341 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 20:46:35.765 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 20:46:35.837 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1495 ms
+2023:03:25 20:46:36.963 [restartedMain] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.shruteekaTech.VIMS.model.Vehicle' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2023:03:25 20:46:37.006 [restartedMain] [INFO] [o.s.b.a.l.ConditionEvaluationReportLogger]-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023:03:25 20:46:37.030 [restartedMain] [ERROR] [o.s.boot.SpringApplication]-Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.shruteekaTech.VIMS.model.Vehicle' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:907)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.shruteekaTech.VIMS.VehicleInsuranceManagementSystemApplication.main(VehicleInsuranceManagementSystemApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: Entity 'com.shruteekaTech.VIMS.model.Vehicle' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:210)
+	at org.hibernate.cfg.annotations.EntityBinder.bindEntityClass(EntityBinder.java:260)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:556)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:216)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:247)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:290)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1348)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1419)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 21 common frames omitted
+2023:03:25 20:47:41.078 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 8172 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 20:47:41.082 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 20:47:41.136 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 20:47:41.137 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 20:47:42.439 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 20:47:42.512 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1375 ms
+2023:03:25 20:47:44.606 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 20:47:44.918 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 20:47:44.952 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 20:47:44.961 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.252 seconds (process running for 4.924)
+2023:03:25 23:16:04.256 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 17108 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:16:04.258 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:16:04.305 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:16:04.305 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:16:05.352 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:16:05.433 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1128 ms
+2023:03:25 23:16:07.250 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:16:07.531 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:16:07.562 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:16:07.571 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.578 seconds (process running for 4.118)
+2023:03:25 23:23:44.876 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleByUserId() started from Vehicle_ModuleController
+2023:03:25 23:23:44.876 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleByUserId() started from VehicleServiceImpl
+2023:03:25 23:23:44.943 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicleByUserId() completed from VehicleServiceImpl
+2023:03:25 23:32:29.922 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : saveVehicle() started from Vehicle_ModuleController
+2023:03:25 23:32:29.922 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : addVehicle() started from VehicleServiceImpl
+2023:03:25 23:32:29.969 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : addVehicle() completed from VehicleServiceImpl
+2023:03:25 23:32:29.977 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : saveVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:34:10.587 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 9856 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:34:10.590 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:34:10.627 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:34:10.629 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:34:11.638 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:34:11.685 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1056 ms
+2023:03:25 23:34:13.275 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:34:13.526 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:34:13.554 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:34:13.561 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.229 seconds (process running for 3.696)
+2023:03:25 23:34:24.609 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : saveVehicle() started from Vehicle_ModuleController
+2023:03:25 23:34:24.609 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : addVehicle() started from VehicleServiceImpl
+2023:03:25 23:34:24.716 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : addVehicle() completed from VehicleServiceImpl
+2023:03:25 23:34:24.722 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : saveVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:35:21.183 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 22976 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:35:21.184 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:35:21.222 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:35:21.222 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:35:22.224 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:35:22.270 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1046 ms
+2023:03:25 23:35:23.852 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:35:24.109 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:35:24.144 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:35:24.153 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.212 seconds (process running for 3.7)
+2023:03:25 23:36:19.387 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : saveVehicle() started from Vehicle_ModuleController
+2023:03:25 23:36:19.387 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : addVehicle() started from VehicleServiceImpl
+2023:03:25 23:36:26.491 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : saveVehicle() started from Vehicle_ModuleController
+2023:03:25 23:36:26.491 [http-nio-9999-exec-3] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : addVehicle() started from VehicleServiceImpl
+2023:03:25 23:36:26.572 [http-nio-9999-exec-3] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : addVehicle() completed from VehicleServiceImpl
+2023:03:25 23:36:26.580 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : saveVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:36:57.143 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleByUserId() started from Vehicle_ModuleController
+2023:03:25 23:36:57.144 [http-nio-9999-exec-4] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleByUserId() started from VehicleServiceImpl
+2023:03:25 23:36:57.148 [http-nio-9999-exec-4] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicleByUserId() completed from VehicleServiceImpl
+2023:03:25 23:36:57.149 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : getVehicleByUserId() completed from Vehicle_ModuleController
+2023:03:25 23:37:10.124 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleByUserId() started from Vehicle_ModuleController
+2023:03:25 23:37:10.124 [http-nio-9999-exec-5] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleByUserId() started from VehicleServiceImpl
+2023:03:25 23:37:27.463 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleByUserId() started from Vehicle_ModuleController
+2023:03:25 23:37:27.464 [http-nio-9999-exec-7] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleByUserId() started from VehicleServiceImpl
+2023:03:25 23:37:49.359 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleById() started from Vehicle_ModuleController
+2023:03:25 23:37:49.359 [http-nio-9999-exec-8] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleById() started from VehicleServiceImpl
+2023:03:25 23:37:49.364 [http-nio-9999-exec-8] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicleById() completed from VehicleServiceImpl
+2023:03:25 23:37:49.364 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : getVehicleById() completed from Vehicle_ModuleController
+2023:03:25 23:38:19.667 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : listOfVehicle() started from Vehicle_ModuleController
+2023:03:25 23:38:19.667 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicles() started from VehicleServiceImpl
+2023:03:25 23:38:33.725 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:38:33.725 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:38:33.733 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:38:33.733 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:38:44.050 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : listOfVehicle() started from Vehicle_ModuleController
+2023:03:25 23:38:44.050 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicles() started from VehicleServiceImpl
+2023:03:25 23:40:25.492 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : listOfVehicle() started from Vehicle_ModuleController
+2023:03:25 23:40:25.492 [http-nio-9999-exec-4] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicles() started from VehicleServiceImpl
+2023:03:25 23:40:25.507 [http-nio-9999-exec-4] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicles() completed from VehicleServiceImpl
+2023:03:25 23:40:25.507 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : listOfVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:40:54.657 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:40:54.658 [http-nio-9999-exec-5] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:40:54.662 [http-nio-9999-exec-5] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:40:54.662 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:44:20.406 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:44:20.406 [http-nio-9999-exec-8] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:44:31.880 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:44:31.880 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:44:31.885 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:44:31.885 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:47:55.167 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 23760 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:47:55.169 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:47:55.209 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:47:55.209 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:47:56.218 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:47:56.266 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1057 ms
+2023:03:25 23:47:57.760 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:47:58.022 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:47:58.053 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:47:58.060 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.144 seconds (process running for 3.64)
+2023:03:25 23:48:30.725 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:48:30.725 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:48:30.798 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:48:30.799 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:53:21.347 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 3536 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:53:21.349 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:53:21.390 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:53:21.391 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:53:22.399 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:53:22.451 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1060 ms
+2023:03:25 23:53:24.064 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:53:24.320 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:53:24.347 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:53:24.355 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.252 seconds (process running for 3.733)
+2023:03:25 23:53:54.822 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:53:54.822 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:53:54.888 [http-nio-9999-exec-2] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:53:54.888 [http-nio-9999-exec-2] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:55:29.714 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 13224 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:55:29.717 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:55:29.759 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:55:29.760 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:55:30.765 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:55:30.817 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1057 ms
+2023:03:25 23:55:32.296 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:55:32.540 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:55:32.572 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:55:32.579 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.098 seconds (process running for 3.559)
+2023:03:25 23:55:40.905 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:55:40.905 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:55:40.974 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:55:40.974 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:55:57.515 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:55:57.516 [http-nio-9999-exec-3] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:55:57.522 [http-nio-9999-exec-3] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:55:57.523 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:57:01.430 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 6720 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:25 23:57:01.434 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:25 23:57:01.480 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:25 23:57:01.480 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:25 23:57:02.482 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:25 23:57:02.533 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1053 ms
+2023:03:25 23:57:04.104 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:25 23:57:04.347 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:25 23:57:04.376 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:25 23:57:04.383 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 3.207 seconds (process running for 3.665)
+2023:03:25 23:57:14.015 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : deleteVehicle() started from Vehicle_ModuleController
+2023:03:25 23:57:14.015 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : deleteVehicle() started from VehicleServiceImpl
+2023:03:25 23:57:14.093 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : deleteVehicle() completed from VehicleServiceImpl
+2023:03:25 23:57:14.093 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : deleteVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:58:42.683 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : saveVehicle() started from Vehicle_ModuleController
+2023:03:25 23:58:42.683 [http-nio-9999-exec-5] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : addVehicle() started from VehicleServiceImpl
+2023:03:25 23:58:42.764 [http-nio-9999-exec-5] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : addVehicle() completed from VehicleServiceImpl
+2023:03:25 23:58:42.780 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : saveVehicle() completed from Vehicle_ModuleController
+2023:03:25 23:59:02.707 [http-nio-9999-exec-6] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleById() started from Vehicle_ModuleController
+2023:03:25 23:59:02.707 [http-nio-9999-exec-6] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleById() started from VehicleServiceImpl
+2023:03:25 23:59:08.751 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : getVehicleById() started from Vehicle_ModuleController
+2023:03:25 23:59:08.752 [http-nio-9999-exec-7] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicleById() started from VehicleServiceImpl
+2023:03:25 23:59:08.756 [http-nio-9999-exec-7] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicleById() completed from VehicleServiceImpl
+2023:03:25 23:59:08.757 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : getVehicleById() completed from Vehicle_ModuleController
+2023:03:25 23:59:20.280 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : listOfVehicle() started from Vehicle_ModuleController
+2023:03:25 23:59:20.280 [http-nio-9999-exec-8] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : getVehicles() started from VehicleServiceImpl
+2023:03:25 23:59:20.355 [http-nio-9999-exec-8] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : getVehicles() completed from VehicleServiceImpl
+2023:03:25 23:59:20.355 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : listOfVehicle() completed from Vehicle_ModuleController

@@ -28,5 +28,5 @@ public class UserDtoModule {
 
     private String licence;
 
-    private VehicleDto vehicle;
+    
 }

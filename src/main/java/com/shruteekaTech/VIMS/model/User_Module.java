@@ -32,7 +32,7 @@ public class User_Module {
 
     private String licence;
 
-    @OneToOne(mappedBy = "userModule", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "userModule")
     private Vehicle vehicle;
 
 }
