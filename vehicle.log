@@ -8,3 +8,7 @@
 2023:03:25 19:19:49.908 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
 2023:03:25 19:19:49.947 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
 2023:03:25 19:19:49.958 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.194 seconds (process running for 4.888)
+2023:03:25 19:59:54.204 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Started : login() started from User_ModuleController
+2023:03:25 19:59:54.204 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Started : loginCheck() started from User_ModuleServiceImpl
+2023:03:25 19:59:54.536 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Completed : loginCheck() completed from User_ModuleServiceImpl
+2023:03:25 19:59:54.536 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Completed : login() completed from User_ModuleController
