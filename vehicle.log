@@ -28,3 +28,27 @@
 2023:03:27 16:28:58.348 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
 2023:03:27 16:28:58.384 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
 2023:03:27 16:28:58.393 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.729 seconds (process running for 5.449)
+2023:03:27 20:19:11.706 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 23504 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 20:19:11.710 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 20:19:11.773 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 20:19:11.773 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 20:19:13.381 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 20:19:13.463 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1688 ms
+2023:03:27 20:19:15.936 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 20:19:16.288 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 20:19:16.327 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 20:19:16.339 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 5.022 seconds (process running for 5.776)
+2023:03:27 20:41:08.818 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 16440 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 20:41:08.820 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 20:41:08.870 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 20:41:08.871 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 20:41:10.245 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 20:41:10.321 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1449 ms
+2023:03:27 20:41:12.484 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 20:41:12.805 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 20:41:12.838 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 20:41:12.847 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.399 seconds (process running for 5.143)
+2023:03:27 20:41:38.537 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Started : getUsersByName() started from User_ModuleController
+2023:03:27 20:41:38.537 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Started : getUserByName() started from User_ModuleServiceImpl
+2023:03:27 20:41:38.853 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Completed : getUserByName() completed from User_ModuleServiceImpl
+2023:03:27 20:41:38.853 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Completed : getUsersByName() completed from User_ModuleController

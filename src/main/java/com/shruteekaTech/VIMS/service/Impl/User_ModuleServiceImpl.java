@@ -82,7 +82,7 @@ public class User_ModuleServiceImpl implements User_ModuleService {
     @Override
     public List<UserDtoModule> getUserByName(String name) {
         logger.info("Started : getUserByName() started from User_ModuleServiceImpl");
-        List<User_Module> userList = userModuleRepo.findByName(name).orElseThrow(() -> new ResourceNotFoundException("User","name"));
+        List<User_Module> userList = userModuleRepo.findByNameContaining(name).orElseThrow(() -> new ResourceNotFoundException("User","name"));
         List<UserDtoModule> list = userList.stream().map((users) ->
                              this.modelMapper.map(users, UserDtoModule.class)).collect(Collectors.toList());
         logger.info("Completed : getUserByName() completed from User_ModuleServiceImpl");

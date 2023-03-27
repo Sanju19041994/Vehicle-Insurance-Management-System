@@ -11,7 +11,7 @@ import java.util.Optional;
 @Repository
 public interface User_ModuleRepo extends JpaRepository<User_Module,Integer> {
 
-    Optional<List<User_Module>> findByName(String name);
+    Optional<List<User_Module>> findByNameContaining(String name);
 
     Optional<User_Module> findByEmail(String email);
 
