@@ -1,0 +1,6 @@
+2023:03:26 00:02:30.390 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : updateVehicle() started from Vehicle_ModuleController
+2023:03:26 00:02:30.401 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : updateVehicle() started from VehicleServiceImpl
+2023:03:26 00:02:30.420 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : updateVehicle() completed from VehicleServiceImpl
+2023:03:26 00:02:30.421 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : updateVehicle() completed from Vehicle_ModuleController
+2023:03:26 00:02:46.253 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : updateVehicle() started from Vehicle_ModuleController
+2023:03:26 00:02:46.254 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : updateVehicle() started from VehicleServiceImpl

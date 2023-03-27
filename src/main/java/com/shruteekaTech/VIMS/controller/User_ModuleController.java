@@ -4,6 +4,7 @@ import com.shruteekaTech.VIMS.dto.UserDtoModule;
 import com.shruteekaTech.VIMS.service.User_ModuleService;
 import com.shruteekaTech.VIMS.utils.ApiResponse;
 import com.shruteekaTech.VIMS.utils.UserLogin;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ public class User_ModuleController {
 
 
     @PostMapping("/save")
-    ResponseEntity<ApiResponse> saveNewUser(@RequestBody UserDtoModule userDtoModule){
+    ResponseEntity<ApiResponse> saveNewUser(@Valid  @RequestBody UserDtoModule userDtoModule){
         logger.info("Started : saveNewUser() started from User_ModuleController");
         boolean saveUser = userModuleService.saveUser(userDtoModule);
         if(saveUser){
@@ -35,7 +36,7 @@ public class User_ModuleController {
     }
 
     @PutMapping("/updateID/{userId}")
-    ResponseEntity<ApiResponse> updateUsers(@RequestBody UserDtoModule userDtoModule, @PathVariable Integer userId){
+    ResponseEntity<ApiResponse> updateUsers(@Valid @RequestBody UserDtoModule userDtoModule, @PathVariable Integer userId){
         logger.info("Started : updateUsers() started from User_ModuleController");
         boolean updateUser = userModuleService.updateUser(userId, userDtoModule);
         if(updateUser){

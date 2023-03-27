@@ -3,6 +3,7 @@ package com.shruteekaTech.VIMS.controller;
 import com.shruteekaTech.VIMS.dto.VehicleDto;
 import com.shruteekaTech.VIMS.service.VehicleService;
 import com.shruteekaTech.VIMS.utils.ApiResponse;
+import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ public class Vehicle_ModuleController {
     private VehicleService vehicleService;
 
     @PostMapping("/saveUId/{userId}")
-    public ResponseEntity<VehicleDto> saveVehicle(@RequestBody VehicleDto vehicleDto, @PathVariable Integer userId){
+    public ResponseEntity<VehicleDto> saveVehicle(@Valid @RequestBody VehicleDto vehicleDto, @PathVariable Integer userId){
         logger.info("Started : saveVehicle() started from Vehicle_ModuleController");
         VehicleDto savedDto = vehicleService.addVehicle(vehicleDto, userId);
         logger.info("Completed : saveVehicle() completed from Vehicle_ModuleController");
@@ -31,7 +32,7 @@ public class Vehicle_ModuleController {
     }
 
     @PutMapping("/updateVId/{vehicleId}")
-    public ResponseEntity<VehicleDto> updateVehicle(@RequestBody VehicleDto vehicleDto, @PathVariable Integer vehicleId){
+    public ResponseEntity<VehicleDto> updateVehicle(@Valid @RequestBody VehicleDto vehicleDto, @PathVariable Integer vehicleId){
         logger.info("Started : updateVehicle() started from Vehicle_ModuleController");
         VehicleDto updatedDto = vehicleService.updateVehicle(vehicleDto, vehicleId);
         logger.info("Completed : updateVehicle() completed from Vehicle_ModuleController");

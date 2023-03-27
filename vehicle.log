@@ -1,6 +1,20 @@
-2023:03:26 00:02:30.390 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : updateVehicle() started from Vehicle_ModuleController
-2023:03:26 00:02:30.401 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : updateVehicle() started from VehicleServiceImpl
-2023:03:26 00:02:30.420 [http-nio-9999-exec-9] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Completed : updateVehicle() completed from VehicleServiceImpl
-2023:03:26 00:02:30.421 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Vehicle_ModuleController]-Completed : updateVehicle() completed from Vehicle_ModuleController
-2023:03:26 00:02:46.253 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Vehicle_ModuleController]-Started : updateVehicle() started from Vehicle_ModuleController
-2023:03:26 00:02:46.254 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.VehicleServiceImpl]-Started : updateVehicle() started from VehicleServiceImpl
+2023:03:27 16:13:07.067 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 13596 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 16:13:07.077 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 16:13:07.154 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 16:13:07.154 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 16:13:08.806 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 16:13:08.890 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1734 ms
+2023:03:27 16:13:11.564 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 16:13:11.930 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 16:13:11.972 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 16:13:11.982 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 5.367 seconds (process running for 6.254)
+2023:03:27 16:26:38.567 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 16360 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 16:26:38.569 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 16:26:38.638 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 16:26:38.638 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 16:26:40.054 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 16:26:40.132 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1493 ms
+2023:03:27 16:26:42.662 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 16:26:42.989 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 16:26:43.024 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 16:26:43.034 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.838 seconds (process running for 5.564)
