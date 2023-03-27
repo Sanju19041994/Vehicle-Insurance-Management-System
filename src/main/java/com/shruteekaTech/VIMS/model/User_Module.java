@@ -35,4 +35,7 @@ public class User_Module {
     @OneToOne(mappedBy = "userModule")
     private Vehicle vehicle;
 
+    @OneToOne (mappedBy = "userModule")
+    private Insurance insurance;
+
 }
