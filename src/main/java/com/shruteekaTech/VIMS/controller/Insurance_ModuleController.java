@@ -22,6 +22,11 @@ public class Insurance_ModuleController {
     @Autowired
     private InsuranceService insuranceService;
 
+    /**
+     * @param insuranceDto
+     * @param userId
+     * @return
+     */
     @PostMapping("/userId/{userId}")
     public ResponseEntity<InsuranceDto> createNewInsurance(@Valid @RequestBody InsuranceDto insuranceDto,
                                                            @PathVariable Integer userId)
@@ -32,6 +37,11 @@ public class Insurance_ModuleController {
         return new ResponseEntity<>(saved, HttpStatus.CREATED);
     }
 
+    /**
+     * @param insuranceDto
+     * @param id
+     * @return
+     */
     @PutMapping("/id/{id}")
     public ResponseEntity<InsuranceDto> updateInsurance(@Valid @RequestBody InsuranceDto insuranceDto,
                                                         @PathVariable Integer id)
@@ -43,6 +53,10 @@ public class Insurance_ModuleController {
     }
 
 
+    /**
+     * @param id
+     * @return
+     */
     @GetMapping("/byId/{id}")
     public ResponseEntity<InsuranceDto> getInsuranceById(@PathVariable Integer id){
         logger.info("Started : getInsuranceById() started from Insurance_ModuleController");
@@ -51,6 +65,11 @@ public class Insurance_ModuleController {
         return new ResponseEntity<>(insurance, HttpStatus.FOUND);
     }
 
+
+    /**
+     * @param name
+     * @return
+     */
     @GetMapping("/byName/{name}")
     public ResponseEntity<List<InsuranceDto>> getInsuranceByName(@PathVariable String name){
         logger.info("Started : getInsuranceByName() started from Insurance_ModuleController");
@@ -59,6 +78,9 @@ public class Insurance_ModuleController {
         return new ResponseEntity<>(insuranceByName, HttpStatus.FOUND);
     }
 
+    /**
+     * @return
+     */
     @GetMapping("/allInsurance")
     public ResponseEntity<List<InsuranceDto>> getInsuranceList(){
         logger.info("Started : getInsuranceList() started from Insurance_ModuleController");
