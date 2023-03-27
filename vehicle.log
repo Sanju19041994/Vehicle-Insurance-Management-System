@@ -52,3 +52,130 @@
 2023:03:27 20:41:38.537 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Started : getUserByName() started from User_ModuleServiceImpl
 2023:03:27 20:41:38.853 [http-nio-9999-exec-1] [INFO] [c.s.V.s.Impl.User_ModuleServiceImpl]-Completed : getUserByName() completed from User_ModuleServiceImpl
 2023:03:27 20:41:38.853 [http-nio-9999-exec-1] [INFO] [c.s.V.c.User_ModuleController]-Completed : getUsersByName() completed from User_ModuleController
+2023:03:27 21:59:17.011 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 2264 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 21:59:17.014 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 21:59:17.067 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 21:59:17.067 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 21:59:18.579 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 21:59:18.653 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1585 ms
+2023:03:27 21:59:21.150 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 21:59:21.369 [restartedMain] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext]-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.shruteekaTech.VIMS.controller.Insurance_ModuleController]: public org.springframework.http.ResponseEntity com.shruteekaTech.VIMS.controller.Insurance_ModuleController.createNewInsurance(com.shruteekaTech.VIMS.dto.InsuranceDto,java.lang.Integer)
+2023:03:27 21:59:21.402 [restartedMain] [INFO] [o.s.b.a.l.ConditionEvaluationReportLogger]-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023:03:27 21:59:21.424 [restartedMain] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /userId/{userId)
+               ^
+Char ')' is not allowed in a captured variable name
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2023:03:27 22:01:28.825 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 27388 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 22:01:28.827 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 22:01:28.886 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 22:01:28.886 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 22:01:30.383 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 22:01:30.465 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1578 ms
+2023:03:27 22:01:32.738 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 22:01:33.119 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 22:01:33.191 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 22:01:33.206 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.747 seconds (process running for 5.426)
+2023:03:27 22:06:29.977 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 2968 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 22:06:29.979 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 22:06:30.041 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 22:06:30.041 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 22:06:31.579 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 22:06:31.653 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1611 ms
+2023:03:27 22:06:34.174 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 22:06:34.518 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 22:06:34.554 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 22:06:34.564 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.954 seconds (process running for 5.667)
+2023:03:27 22:06:41.324 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : createNewInsurance() started from Insurance_ModuleController
+2023:03:27 22:06:41.324 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Started : saveInsurance() started from InsuranceServiceImpl
+2023:03:27 22:06:50.290 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : createNewInsurance() started from Insurance_ModuleController
+2023:03:27 22:06:50.290 [http-nio-9999-exec-3] [INFO] [c.s.VIMS.service.InsuranceService]-Started : saveInsurance() started from InsuranceServiceImpl
+2023:03:27 22:06:50.501 [http-nio-9999-exec-3] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : saveInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:06:50.525 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : createNewInsurance() completed from Insurance_ModuleController
+2023:03:27 22:08:57.788 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : updateInsurance() started from Insurance_ModuleController
+2023:03:27 22:08:57.788 [http-nio-9999-exec-8] [INFO] [c.s.VIMS.service.InsuranceService]-Started : updateInsurance() started from InsuranceServiceImpl
+2023:03:27 22:11:01.515 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 20696 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 22:11:01.517 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 22:11:01.575 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 22:11:01.575 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 22:11:03.034 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 22:11:03.126 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1550 ms
+2023:03:27 22:11:05.411 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 22:11:05.738 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 22:11:05.777 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 22:11:05.788 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 4.614 seconds (process running for 5.31)
+2023:03:27 22:11:20.656 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceById() started from Insurance_ModuleController
+2023:03:27 22:11:20.656 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getInsurance() started from InsuranceServiceImpl
+2023:03:27 22:11:20.786 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:11:20.848 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceById() completed from Insurance_ModuleController
+2023:03:27 22:11:30.199 [http-nio-9999-exec-3] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceById() started from Insurance_ModuleController
+2023:03:27 22:11:30.200 [http-nio-9999-exec-3] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getInsurance() started from InsuranceServiceImpl
+2023:03:27 22:12:04.293 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceByName() started from Insurance_ModuleController
+2023:03:27 22:12:04.294 [http-nio-9999-exec-5] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getInsuranceByName() started from InsuranceServiceImpl
+2023:03:27 22:12:04.482 [http-nio-9999-exec-5] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getInsuranceByName() completed from InsuranceServiceImpl
+2023:03:27 22:12:04.483 [http-nio-9999-exec-5] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceByName() completed from Insurance_ModuleController
+2023:03:27 22:12:13.410 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceByName() started from Insurance_ModuleController
+2023:03:27 22:12:13.410 [http-nio-9999-exec-4] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getInsuranceByName() started from InsuranceServiceImpl
+2023:03:27 22:12:13.422 [http-nio-9999-exec-4] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getInsuranceByName() completed from InsuranceServiceImpl
+2023:03:27 22:12:13.422 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceByName() completed from Insurance_ModuleController
+2023:03:27 22:13:13.523 [http-nio-9999-exec-6] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceList() started from Insurance_ModuleController
+2023:03:27 22:13:13.523 [http-nio-9999-exec-6] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getAllInsurance() started from InsuranceServiceImpl
+2023:03:27 22:13:13.541 [http-nio-9999-exec-6] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getAllInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:13:13.541 [http-nio-9999-exec-6] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceList() completed from Insurance_ModuleController
+2023:03:27 22:13:46.155 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : deleteInsurance() started from Insurance_ModuleController
+2023:03:27 22:13:46.156 [http-nio-9999-exec-7] [INFO] [c.s.VIMS.service.InsuranceService]-Started : deleteInsurance() started from InsuranceServiceImpl
+2023:03:27 22:16:09.584 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : createNewInsurance() started from Insurance_ModuleController
+2023:03:27 22:16:09.584 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Started : saveInsurance() started from InsuranceServiceImpl
+2023:03:27 22:16:09.682 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : saveInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:16:09.682 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : createNewInsurance() completed from Insurance_ModuleController
+2023:03:27 22:17:41.076 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : createNewInsurance() started from Insurance_ModuleController
+2023:03:27 22:17:41.076 [http-nio-9999-exec-4] [INFO] [c.s.VIMS.service.InsuranceService]-Started : saveInsurance() started from InsuranceServiceImpl
+2023:03:27 22:17:41.101 [http-nio-9999-exec-4] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : saveInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:17:41.101 [http-nio-9999-exec-4] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : createNewInsurance() completed from Insurance_ModuleController
+2023:03:27 22:17:55.072 [http-nio-9999-exec-6] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceList() started from Insurance_ModuleController
+2023:03:27 22:17:55.072 [http-nio-9999-exec-6] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getAllInsurance() started from InsuranceServiceImpl
+2023:03:27 22:17:55.089 [http-nio-9999-exec-6] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getAllInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:17:55.089 [http-nio-9999-exec-6] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceList() completed from Insurance_ModuleController
+2023:03:27 22:18:19.345 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : deleteInsurance() started from Insurance_ModuleController
+2023:03:27 22:18:19.345 [http-nio-9999-exec-7] [INFO] [c.s.VIMS.service.InsuranceService]-Started : deleteInsurance() started from InsuranceServiceImpl
+2023:03:27 22:18:19.387 [http-nio-9999-exec-7] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : deleteInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:18:19.387 [http-nio-9999-exec-7] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : deleteInsurance() completed from Insurance_ModuleController
+2023:03:27 22:19:08.913 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : createNewInsurance() started from Insurance_ModuleController
+2023:03:27 22:19:08.913 [http-nio-9999-exec-8] [INFO] [c.s.VIMS.service.InsuranceService]-Started : saveInsurance() started from InsuranceServiceImpl
+2023:03:27 22:19:08.937 [http-nio-9999-exec-8] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : saveInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:19:08.937 [http-nio-9999-exec-8] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : createNewInsurance() completed from Insurance_ModuleController
+2023:03:27 22:20:07.235 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : updateInsurance() started from Insurance_ModuleController
+2023:03:27 22:20:07.235 [http-nio-9999-exec-9] [INFO] [c.s.VIMS.service.InsuranceService]-Started : updateInsurance() started from InsuranceServiceImpl
+2023:03:27 22:20:07.260 [http-nio-9999-exec-9] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : updateInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:20:07.260 [http-nio-9999-exec-9] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : updateInsurance() completed from Insurance_ModuleController
+2023:03:27 22:20:18.508 [http-nio-9999-exec-10] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceList() started from Insurance_ModuleController
+2023:03:27 22:20:18.508 [http-nio-9999-exec-10] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getAllInsurance() started from InsuranceServiceImpl
+2023:03:27 22:20:18.533 [http-nio-9999-exec-10] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getAllInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:20:18.533 [http-nio-9999-exec-10] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceList() completed from Insurance_ModuleController
+2023:03:27 22:57:32.182 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Starting VehicleInsuranceManagementSystemApplication using Java 17.0.3.1 with PID 21628 (D:\Projects\Vehicle-Insurance-Management-System\target\classes started by hp in D:\Projects\Vehicle-Insurance-Management-System)
+2023:03:27 22:57:32.183 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-No active profile set, falling back to 1 default profile: "default"
+2023:03:27 22:57:32.240 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023:03:27 22:57:32.241 [restartedMain] [INFO] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor]-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023:03:27 22:57:33.896 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat initialized with port(s): 9999 (http)
+2023:03:27 22:57:33.982 [restartedMain] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext]-Root WebApplicationContext: initialization completed in 1741 ms
+2023:03:27 22:57:36.640 [restartedMain] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration]-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023:03:27 22:57:37.073 [restartedMain] [INFO] [o.s.b.d.a.OptionalLiveReloadServer]-LiveReload server is running on port 35729
+2023:03:27 22:57:37.117 [restartedMain] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer]-Tomcat started on port(s): 9999 (http) with context path ''
+2023:03:27 22:57:37.131 [restartedMain] [INFO] [c.s.V.VehicleInsuranceManagementSystemApplication]-Started VehicleInsuranceManagementSystemApplication in 5.361 seconds (process running for 6.137)
+2023:03:27 22:57:53.084 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Started : getInsuranceList() started from Insurance_ModuleController
+2023:03:27 22:57:53.084 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Started : getAllInsurance() started from InsuranceServiceImpl
+2023:03:27 22:57:53.404 [http-nio-9999-exec-1] [INFO] [c.s.VIMS.service.InsuranceService]-Completed : getAllInsurance() completed from InsuranceServiceImpl
+2023:03:27 22:57:53.404 [http-nio-9999-exec-1] [INFO] [c.s.V.c.Insurance_ModuleController]-Completed : getInsuranceList() completed from Insurance_ModuleController

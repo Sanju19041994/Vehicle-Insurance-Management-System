@@ -85,7 +85,7 @@ public class InsuranceServiceImp implements InsuranceService {
     }
 
     @Override
-    public void delete(Integer id) {
+    public void deleteInsurance(Integer id) {
         logger.info("Started : deleteInsurance() started from InsuranceServiceImpl");
         Insurance insurance = insuranceRepo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Insurance", "id"));
         insuranceRepo.delete(insurance);

@@ -32,7 +32,7 @@ public class VehicleDto {
     @NotNull @NotEmpty @Size(min = 2, max = 50)
     private String color;
 
-    @NotNull @NotEmpty
+
     private LocalDate registrationDate;
 
     private UserDtoModule userModule;

@@ -22,7 +22,7 @@ public class InsuranceDto {
     @NotNull @NotEmpty @Size(min = 2, max = 100)
     private String insuranceName;
 
-    @NotNull @NotEmpty
+
     private LocalDate insuranceValidity;
 
     private UserDtoModule userModule;

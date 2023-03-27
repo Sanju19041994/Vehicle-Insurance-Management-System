@@ -17,7 +17,7 @@ public interface InsuranceService {
 
     public List<InsuranceDto> getAllInsurance();
 
-    public void delete(Integer id);
+    public void deleteInsurance(Integer id);
 
 
 }
